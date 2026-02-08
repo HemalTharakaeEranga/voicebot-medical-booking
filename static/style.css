@@ -1,0 +1,96 @@
+body {
+    font-family: Inter, Arial, sans-serif;
+    background: #f4f7fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.wrap {
+    width: 540px;
+}
+
+.panel {
+    background: #f8c2eb;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    margin: 0 0 12px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.btn {
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn.primary {
+    background: #3dd647;
+    color: #fff;
+}
+
+.btn.danger {
+    background: #ef4444;
+    color: #fff;
+}
+
+.btn:active {
+    transform: translateY(1px);
+}
+
+.status {
+    text-align: center;
+    color: #333;
+    margin-bottom: 12px;
+}
+
+.hidden {
+    display: none;
+}
+
+.receipt {
+    border-top: 1px dashed #eee;
+    padding-top: 12px;
+    margin-top: 12px;
+}
+
+.receipt h3 {
+    margin: 0 0 8px 0;
+}
+
+#receiptBody {
+    background: #fafafa;
+    padding: 10px;
+    border-radius: 6px;
+    font-family: monospace;
+    white-space: pre-wrap;
+}
+
+.receipt-actions {
+    margin-top: 8px;
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+}
+
+.error {
+    color: #b91c1c;
+    text-align: center;
+    margin-top: 8px;
+}

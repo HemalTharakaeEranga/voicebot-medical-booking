@@ -1,0 +1,38 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>🏥 Medical Clinic VoiceBot</title>
+    <link rel="stylesheet" href="/static/style.css" />
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="panel">
+            <h1>Medical Clinic — Voice Booking</h1>
+
+            <div class="controls">
+                <button id="startBtn" class="btn primary">Call (Start)</button>
+                <button id="cancelBtn" class="btn danger">Cancel</button>
+            </div>
+
+            <p id="status" class="status">Press <strong>Call</strong> to begin voice booking.</p>
+
+            <div id="receipt" class="receipt hidden">
+                <h3>Appointment Receipt</h3>
+                <div id="receiptBody"></div>
+                <div class="receipt-actions">
+                    <button id="downloadBtn" class="btn">Download Receipt</button>
+                </div>
+            </div>
+
+            <div id="error" class="error hidden"></div>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+
+</html>

@@ -5,7 +5,7 @@ const receiptEl = document.getElementById("receipt");
 const receiptBody = document.getElementById("receiptBody");
 const downloadBtn = document.getElementById("downloadBtn");
 const errorEl = document.getElementById("error");
-
+// state management 
 let recognition;
 const SpeechRecognition =
   window.SpeechRecognition || window.webkitSpeechRecognition;
